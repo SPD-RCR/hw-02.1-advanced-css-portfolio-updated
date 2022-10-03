@@ -440,7 +440,7 @@ hr {
   color: #fff;
 }
 
-.gn-menu-main > li {
+.gn-menu-main>li {
   display: block;
   float: left;
   height: 100%;
@@ -459,13 +459,13 @@ hr {
   user-select: none;
 }
 
-.gn-menu-main > li:last-child {
+.gn-menu-main>li:last-child {
   float: right;
   border-right: 0;
   border-left: 1px solid #303030;
 }
 
-.gn-menu-main > li > a {
+.gn-menu-main>li>a {
   padding: 0 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -754,6 +754,7 @@ input.gn-search:focus {
     transform: translateX(0px);
     width: 100%;
   }
+
   .gn-menu-wrapper.gn-open-all .gn-scroller {
     width: 130%;
   }
@@ -761,8 +762,7 @@ input.gn-search:focus {
 
 /* Contact Form */
 
-.contact-form {
-}
+.contact-form {}
 
 .contact-form label {
   color: #999;
